@@ -1,4 +1,4 @@
-/* Lead form: fills course dropdown (alphabet DESC) and submits via AJAX to send.php */
+/* Lead form: fills course dropdown (alphabet ASC) and submits via AJAX to send.php */
 (function () {
   var form = document.getElementById('leadForm');
   if (!form) return;
@@ -7,7 +7,7 @@
   var btn = form.querySelector('button[type="submit"]');
   var titles = (window.COURSES || []).map(function (c) { return c.title; });
   titles = titles.filter(function (t, i) { return titles.indexOf(t) === i; });
-  titles.sort(function (a, b) { return b.localeCompare(a, 'ka'); });
+  titles.sort(function (a, b) { return a.localeCompare(b, 'ka'); });
   titles.forEach(function (t) {
     var o = document.createElement('option');
     o.value = t;
