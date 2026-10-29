@@ -380,3 +380,6 @@ h1,h2,h3,p{margin:0}
 .lead__msg.is-err{color:#D92D20}
 @media (max-width:900px){.lead{grid-template-columns:1fr;padding:40px}}
 @media (max-width:560px){.lead{padding:24px;border-radius:var(--radius-lg)}.lead__form{grid-template-columns:1fr}}
+#how:has(+ #apply){padding-bottom:40px}
+#apply{padding:0}
+#apply + #contact{padding-top:40px}
