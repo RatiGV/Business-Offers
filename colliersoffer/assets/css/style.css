@@ -261,7 +261,7 @@ h1,h2,h3,p{margin:0}
 .card__media img{width:100%;height:100%;object-fit:cover;filter:var(--img-filter);transition:transform .5s}
 .card:hover .card__media img{transform:scale(1.03)}
 .card__fallback{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;font-weight:700;color:var(--tile-ink);background:var(--tile-bg)}
-.card__badge{position:absolute;right:14px;top:14px;display:inline-flex;align-items:center;gap:4px;padding:6px 12px;border-radius:999px;background:var(--brand);color:#fff;font-size:13px;font-weight:700;box-shadow:0 6px 16px rgba(255,96,34,.35)}
+.card__badge{position:absolute;right:14px;top:14px;display:inline-flex;align-items:center;gap:4px;padding:6px 12px;border-radius:999px;background:var(--brand);color:#fff;font-size:13px;font-weight:700;box-shadow:0 6px 16px rgba(37,64,143,.35)}
 .card__body{display:flex;flex-direction:column;gap:12px;padding:20px 22px 22px;flex:1}
 .card__tag{align-self:flex-start;display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:var(--tile-bg);color:var(--tile-ink);font-size:12px;font-weight:600}
 .card__tag svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
