@@ -211,7 +211,7 @@
   function updateToggleLabel() {
     $('themeToggle').setAttribute('aria-label', currentTheme() === 'dark' ? 'ღია თემაზე გადართვა' : 'მუქ თემაზე გადართვა');
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute('content', currentTheme() === 'dark' ? '#111315' : '#000759');
+    if (meta) meta.setAttribute('content', currentTheme() === 'dark' ? '#111315' : '#25408F');
   }
   $('themeToggle').addEventListener('click', function () {
     var next = currentTheme() === 'dark' ? 'light' : 'dark';

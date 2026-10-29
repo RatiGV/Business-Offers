@@ -2,10 +2,10 @@
 /* ---------- Tokens ---------- */
 :root{
   color-scheme:light;
-  --brand:#000759;
+  --brand:#25408F;
   --brand-hover:#1A2A8C;
   --brand-press:#00043D;
-  --brand-ink:#000759;
+  --brand-ink:#25408F;
   --brand-soft:#E8EBF7;
   --brand-soft-hover:#D6DBF0;
   --on-brand:#FFFFFF;
@@ -22,7 +22,7 @@
   --chip-hover:#E6E6E6;
   --shadow:0 1px 2px rgba(16,24,40,.04),0 8px 24px rgba(16,24,40,.06);
   --shadow-lg:0 2px 4px rgba(16,24,40,.04),0 18px 40px rgba(16,24,40,.10);
-  --bog-word:#000759;
+  --bog-word:#25408F;
   --bog-bg:#E7EAEA;
   --img-filter:none;
   --p-it:#E4EEFF;   --p-it-ink:#2E5BBA;
@@ -196,7 +196,7 @@ h1,h2,h3,p{margin:0}
 .promo__text{display:flex;flex-direction:column;align-items:flex-start;gap:20px}
 .promo__title{font-size:clamp(26px,3.2vw,40px);line-height:1.2}
 .promo__text p{color:var(--text-2);max-width:460px}
-.promo__card{position:relative;overflow:hidden;border-radius:var(--radius-lg);background:linear-gradient(135deg,#1A2A8C 0%,#000759 45%,#0C9ED9 100%);color:#fff;padding:36px;min-height:300px;display:flex;flex-direction:column;box-shadow:var(--shadow-lg)}
+.promo__card{position:relative;overflow:hidden;border-radius:var(--radius-lg);background:linear-gradient(135deg,#1A2A8C 0%,#25408F 45%,#0C9ED9 100%);color:#fff;padding:36px;min-height:300px;display:flex;flex-direction:column;box-shadow:var(--shadow-lg)}
 .promo__card::before{content:"";position:absolute;right:-90px;top:-90px;width:280px;height:280px;border-radius:50%;background:rgba(255,255,255,.12)}
 .promo__card::after{content:"";position:absolute;left:-60px;bottom:-120px;width:240px;height:240px;border-radius:50%;background:rgba(255,255,255,.08)}
 .promo__logos{position:relative;display:flex;align-items:center;gap:12px;font-size:18px;opacity:.95}
