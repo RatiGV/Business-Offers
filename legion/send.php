@@ -1,6 +1,6 @@
 <?php
 // Business Offer lead form handler (AJAX). Set COMPANY per site.
-const COMPANY = 'Georgian Legion';
+const COMPANY = 'Mazniashvili Legion';
 const MAIL_TO = 'business@smartacademy.ge';
 const MAIL_FROM = 'no-reply@smartacademy.ge';
 header('Content-Type: application/json; charset=utf-8');
