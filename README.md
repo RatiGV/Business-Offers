@@ -4,3 +4,4 @@
 
 - `BGoffer/` - საქართველოს ბანკი (BOG)
 - `colliersoffer/` - Colliers Georgia
+- `legion/` - ქართული ლეგიონი (Georgian Legion)
